@@ -23,5 +23,3 @@ VMs are processed chronologically by start time within each strategy. For approa
 VMs are sorted by size to prioritize larger VMs, maximizing space utilization. Advanced strategies,
 such as hybrid clustering, employ machine learning to group similar VMs for placement. Live
 migration periodically redistributes VMs across servers to optimize load balancing.  
-
-The maximum number of servers used by each policy are saved to num servers.txt.
